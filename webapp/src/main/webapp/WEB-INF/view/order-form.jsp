@@ -21,9 +21,9 @@
 <br>
 Product Options:
 <br>
-Product 1<form:checkbox path="selected" value="product 1"/>
-Product 2<form:checkbox path="selected" value="product 2"/>
-Product 3<form:checkbox path="selected" value="product 3"/> *
+Product 1 £80 <form:checkbox path="selected" value="product 1"/>
+Product 2 £100 <form:checkbox path="selected" value="product 2"/>
+Product 3 £150 <form:checkbox path="selected" value="product 3"/> *
 <form:errors path="selected" class="error" />
 
 <br><br>
@@ -37,8 +37,8 @@ Standard: £ 2.50<form:radiobutton path="delivery" value="Standard"/>
 
 <br><br>
 
-Discount Code: <form:input path="discountCode" />
-
+Discount Code: <form:input path="discountCode" /><br>
+(Enter CODE1 for 15% discount, CODE2 for 25% discount)
 <br><br>
 
 <h4>Customer Details:</h4>

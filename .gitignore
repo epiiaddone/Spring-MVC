@@ -1,3 +1,5 @@
 .metadata/
 RemoteSystemsTempFiles/
 Servers/
+webapp/.idea/
+webapp/webapp.iml
