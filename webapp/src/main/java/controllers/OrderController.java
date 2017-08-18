@@ -23,7 +23,6 @@ public class OrderController {
 		StringTrimmerEditor ste = new StringTrimmerEditor(true);
 		
 		dataBinder.registerCustomEditor(String.class, ste);
-		
 	}
 	
 	
@@ -33,7 +32,6 @@ public class OrderController {
 		Order theOrder = new Order();
 		
 		theModel.addAttribute("order", theOrder);
-		
 		
 		return "order-form";
 	}
